@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -20,6 +20,12 @@
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <!-- Modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,45 +37,172 @@
 </head>
 
 <body>
-        <!-- Sidebar -->
-        <aside>
-            <nav>  
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
-                </ul>
-            </nav>
-        </aside>
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <nav>  
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;Développeuse web junior</a></li>
+                <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;Assistante de production (évènementiel)</a></li>
+                <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;About me</a></li>
+                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></i>&nbsp;Interests</a></li>
+                <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Contact me</a></li>
+            </ul>            
+        </nav>
+    </aside>
 
+    <div id="container">
+        
         <div id="wrapper">
-        
-        <!-- Masthead -->
-        <header>
-            <a href="#" class="btn btn-default">Développeuse web</a>
-            <a href="#" class="btn btn-default">Assistante de production technique</a>
-        </header>
+            <!-- Masthead -->
+            <header>
+                <a href="#devweb">Voir profil<br>Assistante de production technique (évènementiel)</a><br>
+                <a href="#apt">Voir profil<br>Développeuse web junior</a>
+            </header>
 
-        <!-- About -->
+            <main>
+                <!-- Profil DEV -->
+                <section class="devweb">
+                    <h2><i class="fa fa-cogs" aria-hidden="true">&nbsp;Développeuse web junior</i></h2>
+                    <h3>Compétences</h3>
+                    <article id="opquast">OpQuaSt<br><span>(Les bonnes pratiques du web)</span></article>
+                    <article id="github">GitHub</article>
+                    <article id="gestionProjet">Gestion de projet</article>
+                    <article id="anglais">Bon niveau d'anglais</article>
+                    <h4>Intégration web</h4>
+                    <article id="html">HTML5</article>
+                    <article id="css">CSS3</article>
+                    <article id="js">JS/jQuery</article>
+                    <article id="js">AJAJ/JSON</article>
+                    <article id="responsive">Responsive Design</article>
+                    <!-- <article id="wp">WordPress</article> -->
+                    <article id="boot">Bootstrap</article>
+                    <h4>Développement back</h4>
+                    <article id="php">PHP5</article>
+                    <article id="mysql">SQL/BDD</article>
+                    <article id="poo">POO</article>
+                    <article id="framework">Architecture MVC<br><span>(W : framework pédagogique Webforce3)</span></article>
+                    <h3>Portfolio</h3>
+                    <article>
+                        <img>
+                        <a href="">Lien 1</a>
+                    </article>
+                    <article>
+                        <img>
+                        <a href="">Lien 2</a>
+                    </article>
+                    <article>
+                        <img>
+                        <a href="">Lien 3</a>
+                    </article>
+                    <!-- PDF -->
+                    <a href="">Télécharger le CV</a>
+                </section>
 
-        <!-- Skills -->
 
-        <!-- Portfolio -->
+                <!-- Profil APT -->
+                <section class="apt">
+                    <h2><i class="fa fa-cogs" aria-hidden="true">&nbsp;Assistante de production (évènementiel)</i></h2>
+                    <h3>Compétences</h3>
+                    <ul>
+                        <li>Identification et étude des besoins et des contraintes</li>
+                        <li>Recherche de fonds (subventions, mécenat)</li>
+                        <li>Suivi budgétaire</li>
+                        <li>Planification de la réalisation de l’évènement</li>
+                        <li>Gestion des aspects technique, logistique et sécuritaire</li>
+                        <li>Coordination des prestataires et des équipes</li>
+                        <li>Conception et aménagement d’espace</li>
+                        <li>Conception et mise en place d’animations</li>
+                    </ul>
+                    <h3>Expériences</h3>
+                    <article>
+                        <figure>
+                            <img src="img/Artibat-2016.jpg" alt="afficheArtibat2016">
+                            <figcaption>
+                                <h4>Salon ARTIBAT</h4>
+                                <p>1000 exposants, 40 000 visiteurs, Rennes (2016)</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="img/Weather-2015.jpg" alt="afficheWeatherFestival2015">
+                            <figcaption>
+                                <h4>Festival WEATHER</h4>
+                                <p>50 000 festivaliers, Paris (2015)</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="img/Microsillon-2015.jpg">
+                            <figcaption>
+                                <h4>Festival MICROSILLON</h4>
+                                <p>300 festivaliers, Le Mans (2015)</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <!-- PDF -->
+                    <a href="">Télécharger le CV</a>
+                </section>
 
-        <!-- Contact -->
+                <!-- About me -->
+                <section class="about">
+                    <h2><i class="fa fa-user-circle" aria-hidden="true">&nbsp;About me</i></h2>
+                    <p>J'apprécie pouvoir faire plaisir aux autres à travers les sujets qui m'intéressent ; étant de nature curieuse et toujours avide d'apprendre, beaucoup de sujets me passionnent...
+                    Difficile de faire le tri parmi tous ces domaines plus stimulants les uns que les autres, il m'a tout de même fallu faire un choix au niveau professionnel...<br>
+                    J'ai d'abord suivi ma passion première pour la musique et de fil en aiguille j'ai exercé dans l'évènementiel, j'en retiens beaucoup d'expériences et de rencontres inoubliables.<br>
+                    Je souhaite à présent m'orienter sur les métiers du web afin de pouvoir participer "indirectement" à la construction de beaux projets, de belles initiatives ou encore mieux, de pouvoir agir dans l'intérêt général.<br>
+                    Mes compétences sont les moyens qui me permettent de faire ce qui me plait.</p>
+                    <h3>Mes qualités</h3>
+                        <ul>
+                            <li>Raisonnement stratégique</li>
+                            <li>Anticipation</li>
+                            <li>Organisation</li>
+                            <li>Rigueur</li>
+                            <li>Autonomie</li>
+                            <li>Aisance rédactionnelle et orale</li>
+                            <li>Dynamisme</li>
+                            <li>Créativité</li>
+                            <li>Jovialité</li>
+                        </ul>
+                    <h4>Strenghtsfinder 2.0 from Gallup<br>My top 5 :</h4>
+                        <ol>
+                            <li>Strategic</li>
+                            <li>Communication</li>
+                            <li>Woo</li>
+                            <li>Activator</li>
+                            <li>Intellection</li>
+                        </ol>
+                </section>
 
+                <!-- Interests -->
+                <section class="interests">
+                    <h2><i class="fa fa-star" aria-hidden="true">&nbsp;Interests</i></h2>
+                    <ul>
+                        <li>Musique (indie rock, psych rock, shoegaze, UK bass, techno, hip hop US)</li>
+                        <li>Sport (fitness, danse, pétanque)</li>
+                        <li>Cuisine</li>
+                        <li>Voyages</li>
+                        <li>Séries (Sense8, House of Cards, Utopia, Black Mirror, The OA, The Wire)</li>
+                        <li>Méditation</li>
+                        <li>Jeux de sociétés</li>
+                        <li>Nouvelles technologies</li>
+                        <li>Ecologie</li>
+                    </ul>
+                </section>
+
+            </main>
+
+            <!-- Contact me -->
+            <footer>
+                <h2><i class="fa fa-paper-plane" aria-hidden="true">&nbsp;Contact me</i></h2>
+                <a href="mailto:claire.krucker@hotmail.fr"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;claire.krucker@hotmail.fr</a>
+                <a href="https://github.com/klairec" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>klairec</a>
+                <a href="https://fr.linkedin.com/in/claire-krucker-93825029" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </footer>
         </div>
-        
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-
+    </div>
 </body>
 
 </html>
