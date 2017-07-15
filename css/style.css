@@ -19,43 +19,38 @@ a{
     text-decoration: none;
 }
 
-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50), url(../img/E31A7876-3.jpg) no-repeat fixed top center;
-	background-size: cover;
+.bgimg {
+    background-image: url("/img/clairek.jpg");
+    min-height: 100%;
+    background-position: center top fixed;
+    background-size: cover;
 }
+
 
 #wrapper{
 	margin-left: 12em;
+	background-color: #333;
 }
+
 
 
 /* STYLES DE LA POLICE */
 
 
+#main {
+	margin-left: 120px
+}
+
+
 /* STYLES DE LA SIDEBAR */
 
-aside {
-    position:fixed;
-	float:left;
-	heigth: 100%;
-	margin: 1% 3% 0 3%;
+.w3-row-padding img {
+	margin-bottom: 12px;
 }
 
-ul li a,
-ul li a .fa{
-	color: white;
-	line-height: 2em;
-	font-size: 1.8em;
-	transition-duration: .5s;
-	transition-timing-function: ease-out;
-}
-
-ul li a,
-ul li a .fa:hover{
-	color: #FFFF00;
-	transform: scale(1.2);
-	transition-duration: .5s;
-	transition-timing-function: ease-out;
+.w3-sidebar {
+	width: 120px;
+	background: transparent;
 }
 
 /* STYLES DE L'INTRO */
@@ -87,4 +82,22 @@ header div {
 
 
 /* STYLES DU FOOTER */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+	#main {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+
+
+
+
 

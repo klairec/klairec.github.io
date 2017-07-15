@@ -5,7 +5,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -18,7 +19,10 @@
     <link href="css/style.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -32,177 +36,314 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
-    <!-- Sidebar -->
-    <aside id="sidebar">
-        <nav>  
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;Développeuse web junior</a></li>
-                <li><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;Assistante de production (évènementiel)</a></li>
-                <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;About me</a></li>
-                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></i>&nbsp;Interests</a></li>
-                <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Contact me</a></li>
-            </ul>            
+    <body>
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">  
+
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+                <p>Développeuse web junior</p>
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+                <p>Assistante de production (évènementiel)</p>
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <p>A propos</p>
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <p>Interêts</p>
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                <p>Me contacter</p>
+            </a>
+
         </nav>
-    </aside>
 
-    <div id="container">
-        
-        <div id="wrapper">
-            <!-- Masthead -->
-            <header>
-                <a href="#devweb">Voir profil<br>Assistante de production technique (évènementiel)</a><br>
-                <a href="#apt">Voir profil<br>Développeuse web junior</a>
-            </header>
-
-            <main>
-                <!-- Profil DEV -->
-                <section class="devweb">
-                    <h2><i class="fa fa-cogs" aria-hidden="true">&nbsp;Développeuse web junior</i></h2>
-                    <h3>Compétences</h3>
-                    <article id="opquast">OpQuaSt<br><span>(Les bonnes pratiques du web)</span></article>
-                    <article id="github">GitHub</article>
-                    <article id="gestionProjet">Gestion de projet</article>
-                    <article id="anglais">Bon niveau d'anglais</article>
-                    <h4>Intégration web</h4>
-                    <article id="html">HTML5</article>
-                    <article id="css">CSS3</article>
-                    <article id="js">JS/jQuery</article>
-                    <article id="js">AJAJ/JSON</article>
-                    <article id="responsive">Responsive Design</article>
-                    <!-- <article id="wp">WordPress</article> -->
-                    <article id="boot">Bootstrap</article>
-                    <h4>Développement back</h4>
-                    <article id="php">PHP5</article>
-                    <article id="mysql">SQL/BDD</article>
-                    <article id="poo">POO</article>
-                    <article id="framework">Architecture MVC<br><span>(W : framework pédagogique Webforce3)</span></article>
-                    <h3>Portfolio</h3>
-                    <article>
-                        <img>
-                        <a href="">Lien 1</a>
-                    </article>
-                    <article>
-                        <img>
-                        <a href="">Lien 2</a>
-                    </article>
-                    <article>
-                        <img>
-                        <a href="">Lien 3</a>
-                    </article>
-                    <!-- PDF -->
-                    <a href="">Télécharger le CV</a>
-                </section>
-
-
-                <!-- Profil APT -->
-                <section class="apt">
-                    <h2><i class="fa fa-cogs" aria-hidden="true">&nbsp;Assistante de production (évènementiel)</i></h2>
-                    <h3>Compétences</h3>
-                    <ul>
-                        <li>Identification et étude des besoins et des contraintes</li>
-                        <li>Recherche de fonds (subventions, mécenat)</li>
-                        <li>Suivi budgétaire</li>
-                        <li>Planification de la réalisation de l’évènement</li>
-                        <li>Gestion des aspects technique, logistique et sécuritaire</li>
-                        <li>Coordination des prestataires et des équipes</li>
-                        <li>Conception et aménagement d’espace</li>
-                        <li>Conception et mise en place d’animations</li>
-                    </ul>
-                    <h3>Expériences</h3>
-                    <article>
-                        <figure>
-                            <img src="img/Artibat-2016.jpg" alt="afficheArtibat2016">
-                            <figcaption>
-                                <h4>Salon ARTIBAT</h4>
-                                <p>1000 exposants, 40 000 visiteurs, Rennes (2016)</p>
-                            </figcaption>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="img/Weather-2015.jpg" alt="afficheWeatherFestival2015">
-                            <figcaption>
-                                <h4>Festival WEATHER</h4>
-                                <p>50 000 festivaliers, Paris (2015)</p>
-                            </figcaption>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="img/Microsillon-2015.jpg">
-                            <figcaption>
-                                <h4>Festival MICROSILLON</h4>
-                                <p>300 festivaliers, Le Mans (2015)</p>
-                            </figcaption>
-                        </figure>
-                    </article>
-                    <!-- PDF -->
-                    <a href="">Télécharger le CV</a>
-                </section>
-
-                <!-- About me -->
-                <section class="about">
-                    <h2><i class="fa fa-user-circle" aria-hidden="true">&nbsp;About me</i></h2>
-                    <p>J'apprécie pouvoir faire plaisir aux autres à travers les sujets qui m'intéressent ; étant de nature curieuse et toujours avide d'apprendre, beaucoup de sujets me passionnent...
-                    Difficile de faire le tri parmi tous ces domaines plus stimulants les uns que les autres, il m'a tout de même fallu faire un choix au niveau professionnel...<br>
-                    J'ai d'abord suivi ma passion première pour la musique et de fil en aiguille j'ai exercé dans l'évènementiel, j'en retiens beaucoup d'expériences et de rencontres inoubliables.<br>
-                    Je souhaite à présent m'orienter sur les métiers du web afin de pouvoir participer "indirectement" à la construction de beaux projets, de belles initiatives ou encore mieux, de pouvoir agir dans l'intérêt général.<br>
-                    Mes compétences sont les moyens qui me permettent de faire ce qui me plait.</p>
-                    <h3>Mes qualités</h3>
-                        <ul>
-                            <li>Raisonnement stratégique</li>
-                            <li>Anticipation</li>
-                            <li>Organisation</li>
-                            <li>Rigueur</li>
-                            <li>Autonomie</li>
-                            <li>Aisance rédactionnelle et orale</li>
-                            <li>Dynamisme</li>
-                            <li>Créativité</li>
-                            <li>Jovialité</li>
-                        </ul>
-                    <h4>Strenghtsfinder 2.0 from Gallup<br>My top 5 :</h4>
-                        <ol>
-                            <li>Strategic</li>
-                            <li>Communication</li>
-                            <li>Woo</li>
-                            <li>Activator</li>
-                            <li>Intellection</li>
-                        </ol>
-                </section>
-
-                <!-- Interests -->
-                <section class="interests">
-                    <h2><i class="fa fa-star" aria-hidden="true">&nbsp;Interests</i></h2>
-                    <ul>
-                        <li>Musique (indie rock, psych rock, shoegaze, UK bass, techno, hip hop US)</li>
-                        <li>Sport (fitness, danse, pétanque)</li>
-                        <li>Cuisine</li>
-                        <li>Voyages</li>
-                        <li>Séries (Sense8, House of Cards, Utopia, Black Mirror, The OA, The Wire)</li>
-                        <li>Méditation</li>
-                        <li>Jeux de sociétés</li>
-                        <li>Nouvelles technologies</li>
-                        <li>Ecologie</li>
-                    </ul>
-                </section>
-
-            </main>
-
-            <!-- Contact me -->
-            <footer>
-                <h2><i class="fa fa-paper-plane" aria-hidden="true">&nbsp;Contact me</i></h2>
-                <a href="mailto:claire.krucker@hotmail.fr"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;claire.krucker@hotmail.fr</a>
-                <a href="https://github.com/klairec" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>klairec</a>
-                <a href="https://fr.linkedin.com/in/claire-krucker-93825029" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </footer>
+        <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+          <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top">Claire KRUCKER</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+          </div>
         </div>
-    </div>
-</body>
 
-</html>
+        <div class="container">
+
+            <div id="wrapper">
+                <!-- Page Content -->
+                <div class="w3-padding-large" id="main">
+
+                    <!-- Header/Home -->
+                    <div class="w3-row w3-center w3-padding-16 w3-section">
+                        <div class="w3-half w3-section">
+                            <a href="#devweb">Voir profil<br>Assistante de production technique (évènementiel)</a>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <a href="#apt">Voir profil<br>Développeuse web junior</a>
+                        </div>
+                    </div>
+
+                    <main>
+                        <!-- Profil DEV -->
+                        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="dev">
+                            <h2 class="w3-text-light-grey"><i class="fa fa-cogs" aria-hidden="true">&nbsp;</i>Développeuse web junior</h2>
+                            <hr style="width:200px" class="w3-opacity">
+                            <section class="devweb">
+                                <h3 class="w3-padding-16 w3-text-light-grey">Mes compétences</h3>
+                                <div class="w3-row w3-center w3-padding-16 w3-section">
+                                    <article id="opquast" class="w3-quarter w3-section">
+                                        <p class="w3-wide">OpQuaSt<br><span>(Les bonnes pratiques du web)</span></p>
+                                    </article>
+                                    <article id="github" class="w3-quarter w3-section">
+                                        <p class="w3-wide">GitHub</p>
+                                    </article>
+                                    <article id="gestionProjet" class="w3-quarter w3-section">
+                                        <p class="w3-wide">Gestion de projet</p>
+                                    </article>
+                                    <article id="anglais" class="w3-quarter w3-section">
+                                        <p class="w3-wide">Bon niveau d'anglais</p>
+                                    </article>
+                                </div>
+
+                                    <h4>Intégration web</h4>
+                                    <div class="w3-row w3-center w3-padding-16 w3-section">
+                                        <article id="html" class="w3-third w3-section">
+                                            <p class="w3-wide">HTML5</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+                                            </div>
+                                        </article>
+                                        <article id="css" class="w3-third w3-section">
+                                            <p class="w3-wide">CSS3</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+                                            </div>
+                                        </article>
+                                        <article id="js" class="w3-third w3-section">
+                                            <p class="w3-wide">JS/jQuery</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="w3-row w3-center w3-padding-16 w3-section">
+                                        <article id="js" class="w3-third w3-section">
+                                            <p class="w3-wide">AJAJ</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+                                            </div>
+                                        </article>
+                                        <article id="responsive" class="w3-third w3-section">
+                                            <p class="w3-wide">Responsive Web Design</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+                                            </div>
+                                        </article>
+                                        <!-- <article id="wp">WordPress</article> -->
+                                        <article id="boot" class="w3-third w3-section">
+                                            <p class="w3-wide">Bootstrap</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <h4>Développement back</h4>
+                                    <div class="w3-row w3-center w3-padding-16 w3-section">
+                                        <article id="php" class="w3-third w3-section">
+                                            <p class="w3-wide">PHP5 POO</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+                                            </div>
+                                        </article>
+                                        <article id="mysql" class="w3-third w3-section">
+                                            <p class="w3-wide">MySQL</p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+                                            </div>
+                                        </article>
+                                        <article id="framework" class="w3-third w3-section">
+                                            <p class="w3-wide">Architecture MVC<br><span>(W : framework pédagogique)</span></p>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                                        <div class="w3-half w3-section">
+                                            <span class="w3-xlarge">+</span><br>
+                                            Partners
+                                        </div>
+                                        <div class="w3-half w3-section">
+                                            <span class="w3-xlarge">1+</span><br>
+                                            Projects Done
+                                        </div>
+                                    </div>
+
+                                    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                                      <i class="fa fa-download"></i> Télécharger le CV
+                                    </button>
+
+
+                                <h3 class="w3-padding-16 w3-text-light-grey">Portfolio</h3>
+                                <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                                    <article class="w3-third w3-section">
+                                        <img>
+                                        <a href="">Lien 1</a>
+                                    </article>
+                                    <article class="w3-third w3-section">
+                                        <img>
+                                        <a href="">Lien 2</a>
+                                    </article>
+                                    <article class="w3-third w3-section">
+                                        <img>
+                                        <a href="">Lien 3</a>
+                                    </article>
+                                </div>
+
+                            </section>
+                        </div>
+
+
+                        <!-- Profil APT -->
+                        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="dev">
+                            <h2 class="w3-text-light-grey"><i class="fa fa-cogs" aria-hidden="true">&nbsp;</i>Assistante de production (évènementiel)</h2>
+                            <hr style="width:200px" class="w3-opacity">
+
+                            <section class="apt">
+                                <h3 class="w3-padding-16 w3-text-light-grey">Mes compétences</h3>
+                                <div class="w3-row w3-center w3-padding-16 w3-section">
+                                    <p class="w3-quarter w3-section">Identification et étude des besoins et des contraintes</p>
+                                    <p class="w3-quarter w3-section">Recherche de fonds (subventions, mécenat)</p>
+                                    <p class="w3-quarter w3-section">Suivi budgétaire</p>
+                                    <p class="w3-quarter w3-section">Planification de la réalisation de l’évènement</p>
+                                </div>
+                                <div class="w3-row w3-center w3-padding-16 w3-section">
+                                    <p class="w3-quarter w3-section">Gestion des aspects technique, logistique et sécuritaire</p>
+                                    <p class="w3-quarter w3-section">Coordination des prestataires et des équipes</p>
+                                    <p class="w3-quarter w3-section">Conception et aménagement d’espace</p>
+                                    <p class="w3-quarter w3-section">Conception et mise en place d’animations</p>
+                                </div>
+
+
+                                <h3 class="w3-padding-16 w3-text-light-grey">Expériences</h3>
+                                <div class="w3-row w3-center w3-padding-16 w3-section">
+                                <article class="w3-third w3-section">
+                                    <figure>
+                                        <img src="img/Artibat-2016.jpg" alt="afficheArtibat2016" style="width:100%;">
+                                        <figcaption>
+                                            <h4>Salon ARTIBAT</h4>
+                                            <p>1000 exposants, 40 000 visiteurs, Rennes (2016)</p>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                                <article class="w3-third w3-section">
+                                    <figure>
+                                        <img src="img/Weather-2015.jpg" alt="afficheWeatherFestival2015" style="width:100%">
+                                        <figcaption>
+                                            <h4>Festival WEATHER</h4>
+                                            <p>50 000 festivaliers, Paris (2015)</p>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                                <article class="w3-third w3-section">
+                                    <figure>
+                                        <img src="img/Microsillon-2015.jpg" style="width:100%">
+                                        <figcaption>
+                                            <h4>Festival MICROSILLON</h4>
+                                            <p>300 festivaliers, Le Mans (2015)</p>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                                </div>
+
+                                <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                                      <i class="fa fa-download"></i> Télécharger le CV
+                                </button>
+                            </section>
+
+                        </div>
+
+                        <!-- About Section -->
+                        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+                            <h2 class="w3-text-light-grey"><i class="fa fa-user-circle" aria-hidden="true">&nbsp;</i>A propos</h2>
+                            <hr style="width:200px" class="w3-opacity">
+
+                            <section class="about">
+                                <p>J'apprécie pouvoir faire plaisir aux autres à travers les sujets qui m'intéressent ; étant de nature curieuse et toujours avide d'apprendre, beaucoup de sujets me passionnent...
+                                    Difficile de faire le tri parmi tous ces domaines plus stimulants les uns que les autres, il m'a tout de même fallu faire un choix au niveau professionnel...<br>
+                                    J'ai d'abord suivi ma passion première pour la musique et de fil en aiguille j'ai exercé dans l'évènementiel, j'en retiens beaucoup d'expériences et de rencontres inoubliables.<br>
+                                    Je souhaite à présent m'orienter sur les métiers du web afin de pouvoir participer "indirectement" à la construction de beaux projets, de belles initiatives ou encore mieux, de pouvoir agir dans l'intérêt général.<br>
+                                    Mes compétences sont les moyens qui me permettent de faire ce qui me plait.</p>
+                                    <h3 class="w3-padding-16 w3-text-light-grey">Mes qualités</h3>
+                                    <ul>
+                                        <li>Raisonnement stratégique</li>
+                                        <li>Anticipation</li>
+                                        <li>Organisation</li>
+                                        <li>Rigueur</li>
+                                        <li>Autonomie</li>
+                                        <li>Aisance rédactionnelle et orale</li>
+                                        <li>Dynamisme</li>
+                                        <li>Créativité</li>
+                                        <li>Jovialité</li>
+                                    </ul>
+                                    <h4>Strenghtsfinder 2.0 from Gallup<br>My top 5 :</h4>
+                                    <ol>
+                                        <li>Strategic</li>
+                                        <li>Communication</li>
+                                        <li>Woo</li>
+                                        <li>Activator</li>
+                                        <li>Intellection</li>
+                                    </ol>
+                                </section>
+
+                            </div>
+
+                            <!-- Interests -->
+                            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+                                <h2 class="w3-text-light-grey"><i class="fa fa-star" aria-hidden="true">&nbsp;</i>Intérêts</h2>
+                                <hr style="width:200px" class="w3-opacity">
+
+                                <section class="interests">
+                                    <ul>
+                                        <li>Musique (indie rock, psych rock, shoegaze, UK bass, techno, hip hop US)</li>
+                                        <li>Sport (fitness, danse, pétanque)</li>
+                                        <li>Cuisine</li>
+                                        <li>Voyages</li>
+                                        <li>Séries (Sense8, House of Cards, Utopia, Black Mirror, The OA, The Wire)</li>
+                                        <li>Méditation</li>
+                                        <li>Jeux de sociétés</li>
+                                        <li>Nouvelles technologies</li>
+                                        <li>Ecologie</li>
+                                    </ul>
+                                </section>
+
+                            </div>
+
+
+
+                            <!-- Contact me -->
+                            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="contact">
+                                <h2 class="w3-text-light-grey"><i class="fa fa-paper-plane" aria-hidden="true">&nbsp;</i>Me contacter</h2>
+                                <hr style="width:200px" class="w3-opacity">
+
+                                <a href="mailto:claire.krucker@hotmail.fr"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;claire.krucker@hotmail.fr</a>
+                                <a href="https://github.com/klairec" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>klairec</a>
+                                <a href="https://fr.linkedin.com/in/claire-krucker-93825029" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+                            </div>
+
+                        </main>
+                    </div>
+                </div>
+            </body>
+
+            </html>
