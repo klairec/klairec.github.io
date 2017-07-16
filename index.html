@@ -12,8 +12,8 @@
 
     <title>Claire Krucker</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap Core CSS 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
     <!-- Custom CSS -->
     <link href="css/style.min.css" rel="stylesheet">
@@ -42,134 +42,169 @@
 
     <body>
         <!-- Sidebar -->
-        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">  
-
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-                <i class="fa fa-cogs" aria-hidden="true"></i>
-                <p>Développeuse web junior</p>
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-                <i class="fa fa-cogs" aria-hidden="true"></i>
-                <p>Assistante de production (évènementiel)</p>
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-                <i class="fa fa-user-circle" aria-hidden="true"></i>
-                <p>A propos</p>
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <p>Interêts</p>
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                <p>Me contacter</p>
-            </a>
-
-        </nav>
-
-        <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-          <div class="w3-display-middle">
-            <h1 class="w3-jumbo w3-animate-top">Claire KRUCKER</h1>
-            <hr class="w3-border-grey" style="margin:auto;width:40%">
-          </div>
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <div class="logo">
+                    <li>
+                        <a href="#">
+                            <p><span>C</span>laire<br>Kruc<span>K</span>er</p>
+                        </a>
+                    </li>
+                    </div>
+                    <div class="menu">
+                        <li class="menu-items">
+                            <a href="#">
+                                <p>Développeuse web<br>junior</p>
+                            </a>
+                        </li>
+                        <li class="menu-items">
+                            <a href="#">
+                                <p>Assistante de production<br>événementielle</p>
+                            </a>
+                        </li>
+                        <li class="menu-items">
+                            <a href="#">
+                                <p>À propos</p>
+                            </a>
+                        </li>
+                        <li class="menu-items">
+                            <a href="#">
+                                <p>Interêts</p>
+                            </a>
+                        </li>
+                        <li class="menu-items">
+                            <a href="#">
+                                <p>Me contacter</p>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
         </div>
+
 
         <div class="container">
 
+            <hr>
+            <div>
+                <div>
+                    <a href="#devweb">Voir profil<br>Assistante de production événementielle</a>
+                </div>
+                <div>
+                    <a href="#apt">Voir profil<br>Développeuse web junior</a>
+                </div>
+            </div>
+
             <div id="wrapper">
                 <!-- Page Content -->
-                <div class="w3-padding-large" id="main">
-
-                    <!-- Header/Home -->
-                    <div class="w3-row w3-center w3-padding-16 w3-section">
-                        <div class="w3-half w3-section">
-                            <a href="#devweb">Voir profil<br>Assistante de production technique (évènementiel)</a>
-                        </div>
-                        <div class="w3-half w3-section">
-                            <a href="#apt">Voir profil<br>Développeuse web junior</a>
-                        </div>
-                    </div>
-
                     <main>
                         <!-- Profil DEV -->
-                        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="dev">
-                            <h2 class="w3-text-light-grey"><i class="fa fa-cogs" aria-hidden="true">&nbsp;</i>Développeuse web junior</h2>
-                            <hr style="width:200px" class="w3-opacity">
+                            <h2><i class="fa fa-cogs" aria-hidden="true">&nbsp;</i>Développeuse web junior</h2>
+                            <hr>
                             <section class="devweb">
-                                <h3 class="w3-padding-16 w3-text-light-grey">Mes compétences</h3>
-                                <div class="w3-row w3-center w3-padding-16 w3-section">
-                                    <article id="opquast" class="w3-quarter w3-section">
-                                        <p class="w3-wide">OpQuaSt<br><span>(Les bonnes pratiques du web)</span></p>
+                                <h3>Mes compétences</h3>
+                                <div>
+                                    <article id="opquast">
+                                        <p>OpQuaSt<br><span>(Les bonnes pratiques du web)</span></p>
                                     </article>
-                                    <article id="github" class="w3-quarter w3-section">
-                                        <p class="w3-wide">GitHub</p>
+                                    <article id="github">
+                                        <p>GitHub</p>
                                     </article>
-                                    <article id="gestionProjet" class="w3-quarter w3-section">
-                                        <p class="w3-wide">Gestion de projet</p>
+                                    <article id="gestionProjet">
+                                        <p>Gestion de projet</p>
                                     </article>
-                                    <article id="anglais" class="w3-quarter w3-section">
-                                        <p class="w3-wide">Bon niveau d'anglais</p>
+                                    <article id="anglais">
+                                        <p>Bon niveau d'anglais</p>
                                     </article>
                                 </div>
 
                                     <h4>Intégration web</h4>
                                     <div class="w3-row w3-center w3-padding-16 w3-section">
-                                        <article id="html" class="w3-third w3-section">
+                                        <article id="html" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">HTML5</p>
+                                            <figure>
+                                                <img src="img/HTML5.png" alt="logoHtml" style="width:auto;max-height: 100px; padding-bottom: 1em;">
+                                            </figure>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:95%"></div>
                                             </div>
                                         </article>
-                                        <article id="css" class="w3-third w3-section">
+                                        <article id="css" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">CSS3</p>
+                                            <figure>
+                                                <img src="img/CSS3.png" alt="logoCss" style="width:auto;max-height: 100px;padding-bottom: 1em;">
+                                            </figure>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:85%"></div>
                                             </div>
                                         </article>
-                                        <article id="js" class="w3-third w3-section">
+                                        <article id="js" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">JS/jQuery</p>
+                                            <figure>
+                                                <img src="img/JS.png" alt="logoJs" style="width:auto;max-height: 100px;padding-bottom: 1em;">
+                                            </figure>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:60%"></div>
                                             </div>
                                         </article>
                                     </div>
                                     <div class="w3-row w3-center w3-padding-16 w3-section">
-                                        <article id="js" class="w3-third w3-section">
+                                        <article id="js" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">AJAJ</p>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:60%"></div>
                                             </div>
                                         </article>
-                                        <article id="responsive" class="w3-third w3-section">
+                                        <article id="responsive" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">Responsive Web Design</p>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:80%"></div>
                                             </div>
                                         </article>
-                                        <!-- <article id="wp">WordPress</article> -->
-                                        <article id="boot" class="w3-third w3-section">
-                                            <p class="w3-wide">Bootstrap</p>
+                                        <article id="boot" class="w3-third w3-section" style="padding: 0 2em;">
+                                            <p class="w3-wide">CMS (Bootstrap, WordPress)</p>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="w3-row w3-center w3-padding-16 w3-section">
+                                        <article id="js" class="w3-third w3-section" style="padding: 0 2em;">
+                                            <p class="w3-wide">Photoshop</p>
+                                            <figure>
+                                                <img src="img/Ps.png" alt="logoCss" style="width:auto;max-height: 100px;padding-bottom: 1em;">
+                                            </figure>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+                                            </div>
+                                        </article>
+                                        <article id="responsive" class="w3-third w3-section" style="padding: 0 2em;">
+                                            <p class="w3-wide">Illustrator</p>
+                                            <figure>
+                                                <img src="img/Ai.png" alt="logoCss" style="width:auto;max-height: 100px;padding-bottom: 1em;">
+                                            </figure>
+                                            <div class="w3-white">
+                                              <div class="w3-dark-grey" style="height:28px;width:30%"></div>
                                             </div>
                                         </article>
                                     </div>
 
                                     <h4>Développement back</h4>
                                     <div class="w3-row w3-center w3-padding-16 w3-section">
-                                        <article id="php" class="w3-third w3-section">
-                                            <p class="w3-wide">PHP5 POO</p>
+                                        <article id="php" class="w3-third w3-section" style="padding: 0 2em;">
+                                            <p class="w3-wide">PHP7 POO</p>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:80%"></div>
                                             </div>
                                         </article>
-                                        <article id="mysql" class="w3-third w3-section">
+                                        <article id="mysql" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">MySQL</p>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:80%"></div>
                                             </div>
                                         </article>
-                                        <article id="framework" class="w3-third w3-section">
+                                        <article id="framework" class="w3-third w3-section" style="padding: 0 2em;">
                                             <p class="w3-wide">Architecture MVC<br><span>(W : framework pédagogique)</span></p>
                                             <div class="w3-white">
                                               <div class="w3-dark-grey" style="height:28px;width:85%"></div>
@@ -222,13 +257,13 @@
                                 <h3 class="w3-padding-16 w3-text-light-grey">Mes compétences</h3>
                                 <div class="w3-row w3-center w3-padding-16 w3-section">
                                     <p class="w3-quarter w3-section">Identification et étude des besoins et des contraintes</p>
-                                    <p class="w3-quarter w3-section">Recherche de fonds (subventions, mécenat)</p>
+                                    <p class="w3-quarter w3-section">Recherche de fonds<br>(subventions, mécenat)</p>
                                     <p class="w3-quarter w3-section">Suivi budgétaire</p>
                                     <p class="w3-quarter w3-section">Planification de la réalisation de l’évènement</p>
                                 </div>
                                 <div class="w3-row w3-center w3-padding-16 w3-section">
                                     <p class="w3-quarter w3-section">Gestion des aspects technique, logistique et sécuritaire</p>
-                                    <p class="w3-quarter w3-section">Coordination des prestataires et des équipes</p>
+                                    <p class="w3-quarter w3-section">Coordination des prestataires<br>et des équipes</p>
                                     <p class="w3-quarter w3-section">Conception et aménagement d’espace</p>
                                     <p class="w3-quarter w3-section">Conception et mise en place d’animations</p>
                                 </div>
@@ -238,7 +273,7 @@
                                 <div class="w3-row w3-center w3-padding-16 w3-section">
                                 <article class="w3-third w3-section">
                                     <figure>
-                                        <img src="img/Artibat-2016.jpg" alt="afficheArtibat2016" style="width:100%;">
+                                        <img src="img/ARTIBAT16.jpg" alt="afficheArtibat2016" style="width:100%;">
                                         <figcaption>
                                             <h4>Salon ARTIBAT</h4>
                                             <p>1000 exposants, 40 000 visiteurs, Rennes (2016)</p>
@@ -247,7 +282,7 @@
                                 </article>
                                 <article class="w3-third w3-section">
                                     <figure>
-                                        <img src="img/Weather-2015.jpg" alt="afficheWeatherFestival2015" style="width:100%">
+                                        <img src="img/WEATHER15.jpg" alt="afficheWeatherFestival2015" style="width:100%">
                                         <figcaption>
                                             <h4>Festival WEATHER</h4>
                                             <p>50 000 festivaliers, Paris (2015)</p>
@@ -256,7 +291,7 @@
                                 </article>
                                 <article class="w3-third w3-section">
                                     <figure>
-                                        <img src="img/Microsillon-2015.jpg" style="width:100%">
+                                        <img src="img/MICROSILLON.jpg" style="width:100%">
                                         <figcaption>
                                             <h4>Festival MICROSILLON</h4>
                                             <p>300 festivaliers, Le Mans (2015)</p>
@@ -336,8 +371,8 @@
                                 <hr style="width:200px" class="w3-opacity">
 
                                 <a href="mailto:claire.krucker@hotmail.fr"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;claire.krucker@hotmail.fr</a>
-                                <a href="https://github.com/klairec" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>klairec</a>
-                                <a href="https://fr.linkedin.com/in/claire-krucker-93825029" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                <a href="https://github.com/klairec" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> klairec</a>
+                                <a href="https://fr.linkedin.com/in/claire-krucker-93825029" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>  Claire KRUCKER</a>
 
                             </div>
 
