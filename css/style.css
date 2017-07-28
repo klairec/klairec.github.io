@@ -45,12 +45,18 @@ abbr,acronym { border:0;
 /* DECLARATION POLICES INTERNES */
 
 @font-face {
-    font-family: "Olegos";
+    font-family: Olegos;
     src: url('/fonts/olegos/Olegos.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: Chlakh;
+    src: url('/fonts/chlakh-demo/Chlakh.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*STYLES GLOBAUX*/
 html {
@@ -72,14 +78,19 @@ body {
     padding: 0;
     font-family: Roboto, sans-serif;
     font-size: 1.4em;
+    color: white;
     background: 
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url('/img/clairek.jpg') no-repeat fixed top center;
     background-size: cover;
 }
 
+h1, h2, h3, h4 {
+	font-family: Chlakh, sans-serif;
+}
+
 .container{
-	padding-left: 48em;
+	padding-left: 25em;
 	display: table-cell;
 }
 
@@ -91,67 +102,77 @@ body {
 /* STYLE DE LA SIDEBAR */
 
 .sidebar {
-	border: 2px solid rgba(51, 51, 51, 0.42);
 	display: table-cell;
 	position: fixed;
-	padding-bottom: 30em;
-	/*border: 1px solid #fff;*/
-	margin: 2em 1em;
-	background-color: rgba(0, 0, 0, 0.30);
-	color: #FEFEFE;
-	/*box-shadow: 0.5px 0.5px 6px #333;*/
-}
-
-.sidebar a p {
-	padding: 0.5em 0em;
+	margin: 2em 0em;
+	color: #9E9E9E;
 }
 
 .logo {
-	margin: 0em 5em;
 	margin-top: 2em;
+	margin-bottom: 1em;
 	padding: 0.5em 1em;
 	line-height: 1.1em;
 	font-size: 1.5em;
-	text-align: center;
 }
 
-.logo span {
-	font-family: "Olegos";
-	font-size: 2em;
-	transition: 0.6s ease-in;
+.logo p {
+	font-family: Olegos;
+	color: white;
+	font-size: 4em;
+	transition: all 400ms linear;
 }
 
-.logo:hover {
-	border: none;
+.menu-items a i {
+	font-size: 2.5em;
+	margin: 0.1em;
+	padding-left: 1em;
+	line-height: 2em;
+	border-left: 0.05em solid #9E9E9E;
+	transition: all 400ms linear;
 }
 
-.logo:hover span {
-	color: #FFFF00;
-	text-shadow: 2px 2px rgba(51, 51, 51, 0.29);
-}
-
-.menu {
-	padding: 1em;
-	margin: 0em 0.5em;
-}
-
-.menu-items {
-	text-align: center;
-	padding: 0.5em 0em;
+.menu-items a i p {
+	display: none;
+	font-family: Chlakh;
 	text-transform: uppercase;
-	transition: 0.6s ease-in;
-	font-size: 1.1em;
+	font-size: 0.6em;
+	line-height: 1em;
 }
 
-.menu-items:hover {
-	background-color: rgba(255, 255, 0, 0.72);
-	color: #333;
-	font-weight: bolder;
-	text-shadow: 2px 1px rgba(51, 51, 51, 0.29);
+.logo p:hover {
+
 }
 
+.menu-items a i:hover {
+	border-left: 0.3em solid yellow;
+	color: yellow;
+}
+
+.menu-items a i:hover p {
+	display: block;
+}
 
 /* STYLES DE L'INTRO */
+
+.masthead {
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.raccourcis {
+	align-self: flex-end;
+	text-align: center;
+	font-family: Chlakh;
+	font-size: 1.5em;
+	margin-bottom: 2em;
+	padding: 0.5em;
+	background-color: rgba(15, 37, 61, 0.85);
+	border-radius: 1em;
+	color: rgba(255, 255, 255, 0.72);
+}
+
 
 
 /* STYLE DE L'ABOUT */
