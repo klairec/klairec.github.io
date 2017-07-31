@@ -78,7 +78,7 @@ a {
 body {
 	margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 1.4em;
     color: white;
     background: 
@@ -96,13 +96,19 @@ h2 {
 	font-size: 2.8em;
 }
 
-h3, h4 {
-	font-family: Roboto;
+h3 {
+	font-family: Lato;
 	text-transform: uppercase;
-	padding-top: 1.7em;
-	padding-bottom: 1em;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 1em 0;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+h4 {
+	font-family: Lato;
 	font-size: 1.6em;
-	padding-left: 1.5em;
 	font-weight: bold;
 }
 
@@ -215,63 +221,53 @@ li.logo p:hover {
 }
 
 
-.comp3 {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0em 4em;
-	justify-content: center;
+#section-1 .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
 }
 
-.comp3 article {
-	width: 33%;
-	height: 10em;
-	text-align: center;
-	border: .2px solid rgba(121, 128, 129, 0.99);
-	background-color: rgba(121, 128, 129, 0.80);
-	text-shadow: 0.5px 0.5px 0.5px white;
-	transition: all 400ms linear;
+#section-1 .flex-element {
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    color: #333;
+    border-bottom: 0.3em solid yellow;
+    width: 32%;
 }
 
-.comp3 article:hover {
-	border: .2px solid rgba(255, 255, 0, 0.99);
-	background-color: rgba(255, 255, 0, 0.70);
+#section-1 .flex-element i {
+	font-size: 2.8em;
+	margin-bottom: 0.1em;
+	margin-top: -0.8em;
+	background-color: yellow;
+	padding: 0.5em 1em;
 	color: #333;
-	text-shadow: 1px 0.5px 1px #333;
-	transform: scale(1.07);
 }
 
-.comp3 article p {
-	font-size: 1.2em;
+#section-1 .flex-element i {
+	border-bottom: 0.08em solid #333;
+	margin-bottom: 0.2em;
 }
 
-
-.comp4 {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0em 4em;
-	justify-content: center;
+#section-1 .flex-element i.fa-star {
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	background-color: white;
+	color: yellow;
+	text-shadow: 0.5px 0.5px 0.5px #333;
 }
 
-.comp4 article {
-	width: 25%;
-	height: 10em;
-	text-align: center;
-	border: .2px solid rgba(121, 128, 129, 0.99);
-	background-color: rgba(121, 128, 129, 0.80);
-	text-shadow: 0.5px 0.5px 0.5px white;
-	transition: all 400ms linear;
+#section-1 .flex-element h4 {
+	margin: 0.2em;
+	text-shadow: 0.5px 0.5px 0.5px #333;
 }
 
-.comp4 article:hover {
-	border: .2px solid rgba(255, 255, 0, 0.99);
-	background-color: rgba(255, 255, 0, 0.70);
-	color: #333;
-	text-shadow: 1px 0.5px 1px #333;
-	transform: scale(1.07);
-}
-
-.comp4 article p {
-	font-size: 1.2em;
+#section-1 .flex-element ul li {
+	font-size: 1.1em;
 }
 
 a.dl {
@@ -283,7 +279,7 @@ a.dl {
 }
 
 a.dl:hover {
-	border: .2px solid rgba(14, 27, 48, 0.99);
+	border: .2px solid rgba(14, 27, 48, 0.90);
 	background-color: rgba(14, 27, 48, 0.72);
 	color: white;
 }
@@ -294,6 +290,14 @@ a.dl i {
 
 
 /* STYLE DE L'ABOUT */
+
+#section-3 p {
+	font-size: 1.2em;
+    line-height: 30px;
+    text-indent: 8%;
+	text-align: justify;
+	text-shadow: 0.2px 0.2px 0.2px white;
+}
 
 /* STYLE DES INTERETS */
 
