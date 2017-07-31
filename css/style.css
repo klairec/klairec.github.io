@@ -58,7 +58,9 @@ abbr,acronym { border:0;
     font-style: normal;
 }
 
+
 /*STYLES GLOBAUX*/
+
 html {
     font-size: 62.5%;
 }
@@ -80,35 +82,65 @@ body {
     font-size: 1.4em;
     color: white;
     background: 
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
     url('/img/clairek.jpg') no-repeat fixed top center;
     background-size: cover;
+    position: relative;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
 	font-family: Chlakh, sans-serif;
 }
 
+h2 {
+	font-size: 2.8em;
+}
+
+h3, h4 {
+	font-family: Roboto;
+	text-transform: uppercase;
+	padding-top: 1.7em;
+	padding-bottom: 1em;
+	font-size: 1.6em;
+	padding-left: 1.5em;
+	font-weight: bold;
+}
+
+hr {
+	width: 20em;
+}
+
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#section-5 {
+	background-color: rgba(0, 0, 0, 0.30);
+	padding: 2em;
+	margin-bottom: 8em;
+}
+
 .container{
-	padding-left: 25em;
+	padding-left: 22em;
+	padding-right: 22em;
 	display: table-cell;
 }
 
 #wrapper {
-	background-color: rgba(0, 0, 0, 0.30);
 	padding: 0em 1em;
 }
 
+
 /* STYLE DE LA SIDEBAR */
 
-.sidebar {
+.sidebar-menu {
 	display: table-cell;
 	position: fixed;
 	margin: 2em 0em;
 	color: #9E9E9E;
 }
 
-.logo {
+li.logo {
 	margin-top: 2em;
 	margin-bottom: 1em;
 	padding: 0.5em 1em;
@@ -116,11 +148,15 @@ h1, h2, h3, h4 {
 	font-size: 1.5em;
 }
 
-.logo p {
+li.logo p {
 	font-family: Olegos;
 	color: white;
 	font-size: 4em;
 	transition: all 400ms linear;
+}
+
+li.logo p:hover {
+	color: yellow;
 }
 
 .menu-items a i {
@@ -140,54 +176,132 @@ h1, h2, h3, h4 {
 	line-height: 1em;
 }
 
-.logo p:hover {
-
-}
-
-.menu-items a i:hover {
+.menu-items a i:hover,
+.menu-items a.active i {
 	border-left: 0.3em solid yellow;
 	color: yellow;
 }
 
-.menu-items a i:hover p {
+.menu-items a i:hover p,
+.menu-items a.active p {
 	display: block;
 }
 
 /* STYLES DE L'INTRO */
 
-.masthead {
+#section-0 {
 	height: 100vh;
+}
+
+/* STYLES DES COMPETENCES */
+
+.title {
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: space-between; 
 }
 
-.raccourcis {
-	align-self: flex-end;
+.title img {
+	width: 2.75em;
+	height: auto;
+	margin-bottom: -1.2em;
+	opacity: 1;
+	transition: all 400ms linear;
+}
+
+.title img:hover {
+	opacity: 0.5;
+}
+
+
+.comp3 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 3.5em 0 4em;
+}
+
+.comp3 article {
+	width: 33%;
+	height: 10em;
+	line-height: 10em;
+	border: .2px solid rgba(121, 128, 129, 0.99);
+	background-color: rgba(121, 128, 129, 0.80);
+	text-shadow: 0.5px 0.5px 0.5px white;
+	transition: all 400ms linear;
+}
+
+.comp3 article:hover {
+	border: .2px solid rgba(255, 255, 0, 0.99);
+	background-color: rgba(255, 255, 0, 0.70);
+	color: #333;
+	text-shadow: 1px 0.5px 1px #333;
+	transform: scale(1.07);
+}
+
+.comp3 article p {
 	text-align: center;
-	font-family: Chlakh;
-	font-size: 1.5em;
-	margin-bottom: 2em;
-	padding: 0.5em;
-	background-color: rgba(15, 37, 61, 0.85);
-	border-radius: 1em;
-	color: rgba(255, 255, 255, 0.72);
+	font-size: 1.2em;
 }
 
+
+.comp4 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0em 4em;
+}
+
+.comp4 article {
+	width: 25%;
+	height: 10em;
+	line-height: 10em;
+	border: .2px solid rgba(121, 128, 129, 0.99);
+	background-color: rgba(121, 128, 129, 0.80);
+	text-shadow: 0.5px 0.5px 0.5px white;
+	transition: all 400ms linear;
+}
+
+.comp4 article:hover {
+	border: .2px solid rgba(255, 255, 0, 0.99);
+	background-color: rgba(255, 255, 0, 0.70);
+	color: #333;
+	text-shadow: 1px 0.5px 1px #333;
+	transform: scale(1.07);
+}
+
+.comp4 article p {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+a.dl {
+	margin: auto;
+	padding: 1.2em;
+	background-color: white;
+	color: #333;
+	font-size: 1.2em;
+}
+
+a.dl:hover {
+	border: .2px solid rgba(14, 27, 48, 0.99);
+	background-color: rgba(14, 27, 48, 0.72);
+	color: white;
+}
+
+a.dl i {
+	font-size: 1.3em;
+}
 
 
 /* STYLE DE L'ABOUT */
 
-
-/* STYLES DES COMPETENCES */
-
-
-/* STYLES DU PORTFOLIO */
-
+/* STYLE DES INTERETS */
 
 /* STYLES DES CONTACTS */
 
+#section-5 {
+	margin-bottom: 30em;
+}
 
-/* STYLES DU FOOTER */
 
 /* MEDIA QUERIES */
 
@@ -198,6 +312,14 @@ h1, h2, h3, h4 {
 
 	.sidebar {
 		visibility: hidden;
+	}
+
+	.comp3 article {
+		line-height: 5em;
+	}
+
+	.comp4 article {
+		line-height: 5em;
 	}
 }
 
