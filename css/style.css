@@ -108,6 +108,7 @@ h3, h4 {
 
 hr {
 	width: 20em;
+	background-color: white;
 }
 
 #section-1,
@@ -217,13 +218,14 @@ li.logo p:hover {
 .comp3 {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 3.5em 0 4em;
+	margin: 0em 4em;
+	justify-content: center;
 }
 
 .comp3 article {
 	width: 33%;
 	height: 10em;
-	line-height: 10em;
+	text-align: center;
 	border: .2px solid rgba(121, 128, 129, 0.99);
 	background-color: rgba(121, 128, 129, 0.80);
 	text-shadow: 0.5px 0.5px 0.5px white;
@@ -239,7 +241,6 @@ li.logo p:hover {
 }
 
 .comp3 article p {
-	text-align: center;
 	font-size: 1.2em;
 }
 
@@ -248,12 +249,13 @@ li.logo p:hover {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0em 4em;
+	justify-content: center;
 }
 
 .comp4 article {
 	width: 25%;
 	height: 10em;
-	line-height: 10em;
+	text-align: center;
 	border: .2px solid rgba(121, 128, 129, 0.99);
 	background-color: rgba(121, 128, 129, 0.80);
 	text-shadow: 0.5px 0.5px 0.5px white;
@@ -269,7 +271,6 @@ li.logo p:hover {
 }
 
 .comp4 article p {
-	text-align: center;
 	font-size: 1.2em;
 }
 
