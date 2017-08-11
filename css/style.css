@@ -88,7 +88,6 @@ body {
     font-size: 1.4em;
     color: white;
     background: 
-    linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
     url('/img/clairek.jpg') no-repeat fixed top center;
     background-size: cover;
     position: relative;
@@ -109,7 +108,6 @@ h3 {
 	font-weight: bold;
 	padding: 1em 0;
 	text-align: center;
-	text-shadow: 0.5px 0.5px 0.5px #fff;
 }
 
 h4 {
@@ -183,7 +181,7 @@ li.logo a {
 }
 
 li.logo p:hover {
-	color: yellow;
+	color: #F7FF3C;
 }
 
 .menu-items a i {
@@ -205,8 +203,8 @@ li.logo p:hover {
 
 .menu-items a i:hover,
 .menu-items a.active i {
-	border-left: 0.3em solid yellow;
-	color: yellow;
+	border-left: 0.3em solid #F7FF3C;
+	color: #F7FF3C;
 }
 
 .menu-items a i:hover p,
@@ -256,7 +254,7 @@ li.logo p:hover {
     padding: 1em;
     background-color: #fff;
     color: #333;
-    border-bottom: 0.3em solid yellow;
+    border-bottom: 0.3em solid #F7FF3C;
     width: 32%;
 }
 
@@ -281,7 +279,7 @@ li.logo p:hover {
 	font-size: 2.8em;
 	margin-bottom: 0.1em;
 	margin-top: -0.8em;
-	background-color: yellow;
+	background-color: #F7FF3C;
 	padding: 0.5em 1em;
 	color: #333;
 	border-bottom: 0.08em solid #333;
@@ -293,7 +291,7 @@ li.logo p:hover {
 	padding: 0;
 	font-size: 1em;
 	background-color: #fff;
-	color: yellow;
+	color: #F7FF3C;
 	text-shadow: 0.5px 0.5px 0.5px #333;
 }
 
@@ -308,7 +306,7 @@ a.dl {
 
 a.dl:hover {
 	border: .2px solid rgba(14, 27, 48, 0.90);
-	background-color: rgba(14, 27, 48, 0.72);
+	background-color: rgba(14, 27, 48, 0.90);
 	color: white;
 }
 
@@ -351,7 +349,7 @@ a.dl i {
 }
 
 #section-3 .prez p span {
-	color: yellow;
+	color: #F7FF3C;
 	font-style: italic;
 }
 
@@ -367,7 +365,7 @@ a.dl i {
     padding: 1em;
     background-color: #fff;
     color: #333;
-    border-bottom: 0.3em solid yellow;
+    border-bottom: 0.3em solid #F7FF3C;
 }
 
 #section-3 #qualities {
@@ -404,7 +402,7 @@ a.dl i {
 	font-size: 2em;
 	margin-bottom: 0.4em;
 	margin-top: -0.8em;
-	background-color: yellow;
+	background-color: #F7FF3C;
 	padding: 0.5em 1em;
 	color: #333;
 	border-bottom: 0.1em solid #333;
@@ -453,14 +451,14 @@ a.dl i {
     padding: 1em;
     background-color: #fff;
     color: #333;
-    border-bottom: 0.3em solid yellow;
+    border-bottom: 0.3em solid #F7FF3C;
     font-size: 1.1em;
     width: 18em;
 }
 
 #section-5 .flex-element i {
 	font-size: 1.8em;
-	background-color: yellow;
+	background-color: #F7FF3C;
 	padding: 0.3em;
 	color: #333;
 }
