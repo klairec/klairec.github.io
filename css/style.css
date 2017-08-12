@@ -128,7 +128,7 @@ h5 a {
 
 hr {
 	width: 20em;
-	background-color: #fff;
+	background-color: #FBFCFA;
 }
 
 #section-1,
@@ -171,7 +171,7 @@ li.logo {
 
 li.logo p {
 	font-family: Olegos;
-	color: #fff;
+	color: #FBFCFA;
 	font-size: 4em;
 	transition: all 400ms linear;
 }
@@ -181,7 +181,7 @@ li.logo a {
 }
 
 li.logo p:hover {
-	color: #F7FF3C;
+	color: #008E8E;
 }
 
 .menu-items a i {
@@ -203,13 +203,14 @@ li.logo p:hover {
 
 .menu-items a i:hover,
 .menu-items a.active i {
-	border-left: 0.3em solid #F7FF3C;
-	color: #F7FF3C;
+	border-left: 0.3em solid #008E8E;
+	color: #BBD2E1;
 }
 
 .menu-items a i:hover p,
 .menu-items a.active p {
 	display: block;
+	color: #BBD2E1;
 }
 
 /* STYLES DE L'INTRO */
@@ -252,9 +253,9 @@ li.logo p:hover {
 #section-2 .flex-element {
     text-align: center;
     padding: 1em;
-    background-color: #fff;
+    background-color: #FBFCFA;
     color: #333;
-    border-bottom: 0.3em solid #F7FF3C;
+    border-bottom: 0.3em solid #008E8E;
     width: 32%;
 }
 
@@ -279,7 +280,7 @@ li.logo p:hover {
 	font-size: 2.8em;
 	margin-bottom: 0.1em;
 	margin-top: -0.8em;
-	background-color: #F7FF3C;
+	background-color: #008E8E;
 	padding: 0.5em 1em;
 	color: #333;
 	border-bottom: 0.08em solid #333;
@@ -290,8 +291,8 @@ li.logo p:hover {
 	margin: 0;
 	padding: 0;
 	font-size: 1em;
-	background-color: #fff;
-	color: #F7FF3C;
+	background-color: #FBFCFA;
+	color: #008E8E;
 	text-shadow: 0.5px 0.5px 0.5px #333;
 }
 
@@ -349,7 +350,7 @@ a.dl i {
 }
 
 #section-3 .prez p span {
-	color: #F7FF3C;
+	color: #008E8E;
 	font-style: italic;
 }
 
@@ -363,9 +364,9 @@ a.dl i {
 #section-3 .flex-element {
     text-align: center;
     padding: 1em;
-    background-color: #fff;
+    background-color: #FBFCFA;
     color: #333;
-    border-bottom: 0.3em solid #F7FF3C;
+    border-bottom: 0.3em solid #008E8E;
 }
 
 #section-3 #qualities {
@@ -402,7 +403,7 @@ a.dl i {
 	font-size: 2em;
 	margin-bottom: 0.4em;
 	margin-top: -0.8em;
-	background-color: #F7FF3C;
+	background-color: #008E8E;
 	padding: 0.5em 1em;
 	color: #333;
 	border-bottom: 0.1em solid #333;
@@ -424,7 +425,7 @@ a.dl i {
 	margin: 0.2em;
 	border: 0.5px solid rgba(14, 27, 48, 0.99);
 	border-radius: 0.2em;
-	text-shadow: 0.1px 0.1px 0.1px #fff;
+	text-shadow: 0.1px 0.1px 0.1px #FBFCFA;
 }
 
 #section-4 ul li span {
@@ -449,16 +450,16 @@ a.dl i {
     text-align: center;
     text-shadow: 0.1px 0.1px 0.1px #333;
     padding: 1em;
-    background-color: #fff;
+    background-color: #FBFCFA;
     color: #333;
-    border-bottom: 0.3em solid #F7FF3C;
+    border-bottom: 0.3em solid #008E8E;
     font-size: 1.1em;
     width: 18em;
 }
 
 #section-5 .flex-element i {
 	font-size: 1.8em;
-	background-color: #F7FF3C;
+	background-color: #008E8E;
 	padding: 0.3em;
 	color: #333;
 }
