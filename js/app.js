@@ -9,10 +9,10 @@ $(function($){
 
  	// je créé une fonction permettant d'ajouter une animation au click des liens du menu
  	$('.sidebar a').click(function(e){
- 		$('html, body').animate({
- 			scrollTop: ($($(this).attr('href'))).offset().top
- 		})
+ 		$('html, body').animate(
+            { scrollTop: ($($(this).attr('href'))).offset().top }, 600);
  	});
+
 
 
  	// pour chaque lien, j'insère dans mon tableau sections la valeur de l'href
