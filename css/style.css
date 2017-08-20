@@ -127,7 +127,7 @@ h5 a {
 }
 
 hr {
-	width: 20em;
+	width: 30%;
 	background-color: #fff;
 }
 
@@ -148,7 +148,7 @@ hr {
 }
 
 #wrapper {
-	padding: 0em 1em;
+	padding: none;
 }
 
 
@@ -256,7 +256,11 @@ li.logo p:hover {
     background-color: #fff;
     color: #333;
     border-bottom: 0.3em solid #F6DC12;
-    width: 32%;
+}
+
+#section-1 .flex-element {
+	margin-top: 3em;
+	width: 32%;
 }
 
 #section-2 .flex-element {
@@ -322,12 +326,14 @@ a.dl i {
 }
 
 #section-2 img {
+	position: relative;
 	filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
 	transition: all 400ms linear;
+	z-index: 1;
 }
 
 #section-2 img:hover {
@@ -484,12 +490,25 @@ a.dl i {
 	}
 
 	#section-0 {
-		/*display: none;*/
+		height: 30vh;
 	}
 
 	.sidebar-menu {
+		margin-top: 0;
+		padding-top: 2em;
+		padding-bottom: 2em;
 	    display: block;
 	    position: fixed;
+	    line-height: 8.5em;
+	    padding-left: 1em;
+		padding-right: 1em;
+		background: #333;
+		width: 100%;
+		z-index: 2;
+	}
+
+	li.logo p {
+		text-align: center;
 	}
 
 	.menu-items {
@@ -519,6 +538,11 @@ a.dl i {
 	#section-1 .flex-element,
 	#section-2 .flex-element {
 	    width: 100%;
+	}
+
+	#section-1 .flex,
+	#section-2 .flex {
+	    margin: 1em;
 	}
 
 }
