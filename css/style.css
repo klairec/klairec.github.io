@@ -143,7 +143,7 @@ hr {
 
 li.logo {
 	padding: 0.5em;
-	margin-bottom: -1.5em;
+	margin-bottom: -0.5em;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -202,31 +202,15 @@ li.logo p:hover {
 
 /* STYLES DES COMPETENCES DEV */
 
-.title {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between; 
-}
-
 .title img {
-	width: 2.75em;
-	height: auto;
-	margin-bottom: -1.2em;
-	opacity: 0.5;
-	transition: all 400ms linear;
+	display: none;
 }
-
-.title img:hover {
-	opacity: 1;
-}
-
 
 #section-1 .flex,
 #section-2 .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin: 2em;
 }
 
 #section-1 .flex-element,
@@ -236,16 +220,7 @@ li.logo p:hover {
     background-color: #fff;
     color: #333;
     border-bottom: 0.3em solid #F6DC12;
-}
-
-#section-1 .flex-element {
-	margin-top: 3em;
-	width: 32%;
-}
-
-#section-2 .flex-element {
-	margin-top: 3em;
-	width: 49%;
+    margin-top: 2em;
 }
 
 #section-1 .flex-element h4,
@@ -261,7 +236,7 @@ li.logo p:hover {
 
 #section-1 .flex-element i,
 #section-2 .flex-element i {
-	font-size: 2.8em;
+	font-size: 2em;
 	margin-bottom: 0.1em;
 	margin-top: -0.8em;
 	background-color: #F6DC12;
