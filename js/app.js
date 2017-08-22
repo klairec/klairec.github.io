@@ -7,17 +7,12 @@ $(function($){
     var id = false;
 
     // je créé une variable qui récupère la largeur de l'écran
-    var iWindowsSize = $(window).width();’
+    var iWindowsSize = $(document).width();
 
  	// je créé une fonction permettant d'ajouter une animation au click des liens du menu
  	$('.sidebar a').click(function(e){
-        if (iWindowsSize < 1024){
-     		$('html, body').animate(
-                { scrollTop: ($($(this).attr('href'))).offset().top-230 }, 1200);
-        } else {
-            $('html, body').animate(
-                { scrollTop: ($($(this).attr('href'))).offset().top}, 1200);
-        }
+        $('html, body').animate(
+            { scrollTop: ($($(this).attr('href'))).offset().top}, 1200);
  	});
 
 
