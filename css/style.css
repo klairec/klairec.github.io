@@ -79,14 +79,14 @@ a {
 
 body {
     font-family: Lato, sans-serif;
-    font-size: 1.5em;
+    font-size: 120%;
     color: white;
     position: relative;
     background-color: #333;
 }
 
 h2 {
-	font-family: Chlakh, sans-serif;
+	font-family: Chlakh, Lato, sans-serif;
 	font-size: 2.2em;
 }
 
@@ -128,11 +128,11 @@ hr {
 }
 
 .container{
-	padding: 1em;
+	padding: 0.3em;
 }
 
 #wrapper {
-	padding: 1em;
+	padding: 0.3em;
 }
 
 
@@ -148,15 +148,16 @@ hr {
 
 li.logo {
 	padding: 0.5em;
-	margin-top: 2em;
+	margin-top: 1em;
 	text-align: center;
 }
 
 li.logo p {
-	font-family: Olegos;
+	font-family: Olegos, Limelight, cursive;
 	color: #fff;
 	font-size: 6em;
 	transition: all 400ms linear;
+	margin-bottom: -0.4em;
 }
 
 li.logo a {
@@ -171,7 +172,7 @@ li.logo a {
 /* STYLES DE L'INTRO */
 
 #section-0 {
-	height: 10em;
+	height: 7.2em;
 }
 
 
@@ -614,7 +615,7 @@ a.dl i {
 	}
 
 	.menu-items a i p {
-		font-family: Chlakh;
+		font-family: Chlakh, Lato, sans-serif;
 		text-transform: uppercase;
 		font-size: 0.6em;
 		line-height: 1em;
