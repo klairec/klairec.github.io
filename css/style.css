@@ -580,6 +580,10 @@ a.dl i {
 
 @media only screen and (min-width: 64em) {
 	
+	body {
+		font-size: 140%;
+	}
+
 	a:hover {
 		color: rgba(14, 27, 48, 0.90);
 		text-shadow: 0.5px 0.5px 0.5px rgba(14, 27, 48, 0.80);
