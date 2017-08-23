@@ -505,7 +505,7 @@ a.dl i {
 	.content {
 		width: 100%;
     	height: 80vh;
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 
 	#section-0 {
