@@ -312,7 +312,7 @@ a.dl i {
 }
 
 #section-3 #gallup {
-	border-bottom: 0.3em solid #9E9E9E;
+	border-bottom: 0.3em solid #F6DC12;
 }
 
 #section-3 #gallup ol li {
@@ -326,7 +326,7 @@ a.dl i {
 	margin-top: -1.03em;
 	line-height: 1.25em;
 	margin-bottom: 1.3em;
-	background-color: #9E9E9E;
+	background-color: #F6DC12;
 }
 
 #section-3 .flex-element h4 {
@@ -746,6 +746,13 @@ a.dl i {
 	    -moz-filter: grayscale(0);
 	    -o-filter: grayscale(0);
 	    -ms-filter: grayscale(0);
+	}
+
+	#section-3 #gallup ol li {
+		font-size: 1.4em;
+		text-shadow: 0.5px 0.5px 0.5px #333;
+		line-height: 1.7em;
+		text-align: center;
 	}
 
 	a.dl:hover {
