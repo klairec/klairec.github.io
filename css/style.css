@@ -79,7 +79,7 @@ a {
 
 body {
     font-family: Lato, sans-serif;
-    font-size: 120%;
+    font-size: 128%;
     color: white;
     position: relative;
     background-color: #333;
@@ -124,7 +124,7 @@ hr {
 #section-5 {
 	background-color: rgba(0, 0, 0, 0.30);
 	padding: 1em;
-	margin-bottom: 8em;
+	margin-bottom: 5em;
 }
 
 .container{
@@ -156,7 +156,11 @@ li.logo p {
 	font-family: Olegos, Limelight, cursive;
 	color: #fff;
 	font-size: 6em;
-	transition: all 400ms linear;
+	-webkit-transition: all 600ms linear;
+    -moz-transition: all 600ms linear;
+    -o-transition: all 600ms linear;
+    -ms-transition: all 600ms linear;
+    transition: all 600ms linear;: all 600ms linear;
 	margin-bottom: -0.4em;
 }
 
@@ -187,6 +191,10 @@ li.logo a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#section-1 h2 {
+	margin-top: 0.5em;
 }
 
 #section-1 .flex-element,
@@ -254,7 +262,11 @@ a.dl i {
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
-	transition: all 400ms linear;
+	-webkit-transition: all 600ms linear;
+    -moz-transition: all 600ms linear;
+    -o-transition: all 600ms linear;
+    -ms-transition: all 600ms linear;
+    transition: all 600ms linear;
 	z-index: 1;
 }
 
@@ -333,7 +345,7 @@ a.dl i {
 /* STYLE DES INTERETS */
 
 #section-4 ul {
-	padding: 0.5em;
+	padding: 0.1em;
 }
 
 #section-4 ul li {
@@ -356,14 +368,13 @@ a.dl i {
 /* STYLES DES CONTACTS */
 
 #section-5 {
-	margin-bottom: 10em;
+	margin-bottom: 2em;
 }
 
 #section-5 .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 #section-5 .flex-element {
@@ -388,28 +399,14 @@ a.dl i {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 37.5em) {
 
 	body {
-	    background:
-	    url('/img/clairek.jpg') no-repeat fixed top center;
-	    background-size: cover;
-	    position: relative;
-	}
-
-	.container{
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-
-	.content {
-		width: 100%;
-    	height: 48em;
-		overflow: scroll;
+		font-size: 135%;
 	}
 
 	#section-0 {
-		height: 16vh;
+		height: 9em;
 	}
 
 	#section-1,
@@ -420,55 +417,8 @@ a.dl i {
 		margin-bottom: 5em;
 	}
 
-	.sidebar-menu {
-		background-color: transparent;
-		position: fixed;
-		padding-bottom: 4em;
-		padding-top: 2em;
-		color: #9E9E9E;
-	}
-
-	nav ul {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    ul.sidebar {
-    	margin-right: 4em;
-    	padding-right: 1em;
-    }
-
-    li.logo {
-		padding: 0;
-		margin-top: 0;
-		margin-bottom: -2em;
-		text-align: left;
-	}
-
-	li.logo p {
-		font-family: Olegos;
-		color: #fff;
-		font-size: 6em;
-	}
-
-	li.logo a {
-		text-decoration: none;
-	}
-
-	.menu-items {
-		display: block;
-	}
-
-	.menu-items a i {
-		position: fixed;
-		color: #F6DC12;
-		font-size: 2.2em;
-	}
-
-	.menu-items a i p {
-		display: none;
+	#section-1 h2 {
+		margin-top: 0em;
 	}
 
 	#section-1 .flex,
@@ -527,10 +477,6 @@ a.dl i {
 		margin-top: -0.8em;
 	}
 
-	#section-5 {
-		margin-bottom: 20em;
-	}
-
 	#section-5 .flex {
 	    flex-direction: row;
 	    justify-content: space-around;
@@ -540,6 +486,96 @@ a.dl i {
 	#section-5 .flex-element {
 	    width: 32%;
 	}
+}
+
+@media only screen and (min-width: 48em) {
+
+	body {
+	    background:
+	    url('/img/clairek.jpg') no-repeat fixed top center;
+	    background-size: cover;
+	    -webkit-background-size: cover;
+	}
+
+	.container{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.content {
+		width: 100%;
+    	height: 80vh;
+		overflow: scroll;
+	}
+
+	#section-0 {
+		height: 13vh;
+	}
+
+	#section-1,
+	#section-2,
+	#section-3,
+	#section-4,
+	#section-5 {
+		margin-bottom: 5em;
+	}
+
+	.sidebar-menu {
+		background-color: transparent;
+		position: fixed;
+		padding-bottom: 4em;
+		padding-top: 2em;
+		color: #9E9E9E;
+	}
+
+	nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul.sidebar {
+    	margin-right: 4em;
+    	padding-right: 1em;
+    }
+
+    li.logo {
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: -2em;
+		text-align: left;
+	}
+
+	li.logo p {
+		font-family: Olegos;
+		color: #fff;
+		font-size: 6em;
+	}
+
+	li.logo a {
+		text-decoration: none;
+	}
+
+	.menu-items {
+		display: block;
+	}
+
+	.menu-items a i {
+		position: fixed;
+		color: #F6DC12;
+		font-size: 2.2em;
+		margin-top: 0.5em;
+	}
+
+	.menu-items a i p {
+		display: none;
+	}
+
+	#section-5 {
+		margin-bottom: 0em;
+	}
+	
 }
 
 @media only screen and (min-width: 64em) {
@@ -562,14 +598,19 @@ a.dl i {
 	.content {
 		width: 100%;
     	height: 100%;
-		overflow: none;
+		overflow-y: hidden;
 	}
 
 	.sidebar-menu {
 		display: table-cell;
 		margin: 2em 0em;
-		right: 90em;
+		right: 80vw;
 	}
+
+	ul.sidebar {
+    	margin-right: 0em;
+    	padding-right: 0em;
+    }
 
 	nav ul {
         display: flex;
@@ -580,14 +621,18 @@ a.dl i {
 
 	li.logo {
 		margin-top: 2em;
-		margin-bottom: 2em;
+		margin-bottom: 3em;
 		padding: 0.5em 1em;
 		line-height: 1.1em;
-		font-size: 1.5em;
 	}
 
 	li.logo p {
-		transition: all 400ms linear;
+		font-size: 7em;
+		-webkit-transition: all 600ms linear;
+	    -moz-transition: all 600ms linear;
+	    -o-transition: all 600ms linear;
+	    -ms-transition: all 600ms linear;
+	    transition: all 600ms linear;
 	}
 
 	li.logo p:hover {
@@ -610,7 +655,11 @@ a.dl i {
 		padding-left: 1em;
 		line-height: 2em;
 		border-left: 0.05em solid #9E9E9E;
-		transition: all 400ms linear;
+		-webkit-transition: all 600ms linear;
+	    -moz-transition: all 600ms linear;
+	    -o-transition: all 600ms linear;
+	    -ms-transition: all 600ms linear;
+	    transition: all 600ms linear;
 		color: #9E9E9E;
 	}
 
@@ -647,12 +696,20 @@ a.dl i {
 		height: auto;
 		margin-bottom: -1.2em;
 		opacity: 1;
-		transition: all 400ms linear;
+		-webkit-transition: all 600ms linear;
+	    -moz-transition: all 600ms linear;
+	    -o-transition: all 600ms linear;
+	    -ms-transition: all 600ms linear;
+	    transition: all 600ms linear;
 	}
 
 	.title img:hover {
 		opacity: 0.7;
-		transition: all 400ms linear;
+		-webkit-transition: all 600ms linear;
+	    -moz-transition: all 600ms linear;
+	    -o-transition: all 600ms linear;
+	    -ms-transition: all 600ms linear;
+	    transition: all 600ms linear;
 	}
 
 	#section-1 .flex,
@@ -699,6 +756,13 @@ a.dl i {
 
 	#section-5 {
 		margin-bottom: 45em;
+	}
+}
+
+
+@media only screen and (min-width: 80em) {
+	.sidebar-menu {
+		right: 60em;
 	}
 }
 
