@@ -46,7 +46,7 @@ abbr,acronym { border:0;
 
 @font-face {
     font-family: Olegos;
-    src: url('/fonts/olegos/Olegos.woff') format('woff');
+    src: url('/fonts/olegos/olegos.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
