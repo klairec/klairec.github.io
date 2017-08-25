@@ -100,7 +100,6 @@ h3 {
 
 h4 {
 	font-size: 1.5em;
-	font-weight: bold;
 }
 
 h5 {
@@ -203,7 +202,7 @@ li.logo a {
     padding: 1em;
     background-color: #fff;
     color: #333;
-    border-bottom: 0.3em solid #F6DC12;
+    border-bottom: 0.3em solid #357BFF;
     margin-top: 3em;
 }
 
@@ -223,7 +222,7 @@ li.logo a {
 	font-size: 2em;
 	margin-bottom: 0.1em;
 	margin-top: -0.8em;
-	background-color: #F6DC12;
+	background-color: #357BFF;
 	padding: 0.5em 1em;
 	color: #333;
 	border-bottom: 0.08em solid #333;
@@ -288,7 +287,7 @@ a.dl i {
 }
 
 #section-3 .prez p span {
-	color: #F6DC12;
+	color: #357BFF;
 	font-style: italic;
 }
 
@@ -303,7 +302,7 @@ a.dl i {
     padding: 1em;
     background-color: #fff;
     color: #333;
-    border-bottom: 0.3em solid #F6DC12;
+    border-bottom: 0.3em solid #357BFF;
     margin-top: 3em;
 }
 
@@ -312,7 +311,7 @@ a.dl i {
 }
 
 #section-3 #gallup {
-	border-bottom: 0.3em solid #F6DC12;
+	border-bottom: 0.3em solid #357BFF;
 }
 
 #section-3 #gallup ol li {
@@ -326,7 +325,7 @@ a.dl i {
 	margin-top: -1.03em;
 	line-height: 1.25em;
 	margin-bottom: 1.3em;
-	background-color: #F6DC12;
+	background-color: #357BFF;
 }
 
 #section-3 .flex-element h4 {
@@ -334,9 +333,9 @@ a.dl i {
 	margin-top: -1.03em;
 	line-height: 1.25em;
 	margin-bottom: 1.3em;
-	background-color: #F6DC12;
+	background-color: #357BFF;
 	padding: 0.5em 1em;
-	color: #333;
+	color: #fff;
 	border-bottom: 0.1em solid #333;
 	text-shadow: 0.5px 0.5px 0.5px #333;
 }
@@ -383,7 +382,7 @@ a.dl i {
     padding: 1em;
     background-color: #fff;
     color: #333;
-    border-bottom: 0.3em solid #F6DC12;
+    border-bottom: 0.3em solid #357BFF;
     font-size: 1.1em;
     margin-top: 2em;
 }
@@ -391,7 +390,7 @@ a.dl i {
 #section-5 .flex-element i {
 	display: block;
 	font-size: 2em;
-	color: #F6DC12;
+	color: #357BFF;
 	padding: 0.3em;
 	text-shadow: 0.5px 0.5px 0.5px #333;
 }
@@ -434,7 +433,7 @@ a.dl i {
 	    padding: 1em;
 	    background-color: #fff;
 	    color: #333;
-	    border-bottom: 0.3em solid #F6DC12;
+	    border-bottom: 0.3em solid #357BFF;
 	}
 
 	#section-1 .flex-element {
@@ -563,7 +562,7 @@ a.dl i {
 
 	.menu-items a i {
 		position: fixed;
-		color: #F6DC12;
+		color: #357BFF;
 		font-size: 2.2em;
 		margin-top: 0.5em;
 	}
@@ -640,7 +639,7 @@ a.dl i {
 	}
 
 	li.logo p:hover {
-		color: #F6DC12;
+		color: #357BFF;
 	}
 
 	h2 {
@@ -677,15 +676,15 @@ a.dl i {
 
 	.menu-items a i:hover,
 	.menu-items a.active i {
-		border-left: 0.3em solid #F6DC12;
-		color: #F6DC12;
+		border-left: 0.3em solid #357BFF;
+		color: #357BFF;
 	}
 
 	.menu-items a i:hover p,
 	.menu-items a.active p {
 		display: block;
 		position: relative;
-		color: #F6DC12;
+		color: #357BFF;
 	}
 
 	.title {
@@ -756,8 +755,8 @@ a.dl i {
 	}
 
 	a.dl:hover {
-		border: .2px solid rgba(14, 27, 48, 0.90);
-		background-color: rgba(14, 27, 48, 0.90);
+		border: .2px solid #357BFF;
+		background-color: #357BFF;
 		color: white;
 	}
 
