@@ -25,7 +25,7 @@ address,caption,cite,code,dfn,th,var {
 	font-style:normal;
 	font-weight:normal;
 }
-ul {
+ul, li {
 	list-style:none;
 }
 caption,th {
@@ -51,31 +51,16 @@ abbr,acronym { border:0;
     font-style: normal;
 }
 
-@font-face {
-    font-family: Chlakh;
-    src: url('/fonts/chlakh-demo/Chlakh.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 /*STYLES GLOBAUX*/
 
 html {
     font-size: 62.5%;
 }
 
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
     text-decoration: underline;
 }
-
 
 body {
     font-family: Lato, sans-serif;
@@ -86,11 +71,12 @@ body {
 }
 
 h2 {
-	font-family: Chlakh, Lato, sans-serif;
+	font-family: Cantarell, sans-serif;
 	font-size: 2.2em;
 }
 
 h3 {
+    font-family: Cantarell, sans-serif;
 	text-transform: uppercase;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -105,7 +91,6 @@ h4 {
 h5 {
 	margin: 0.5em 0;
 	font-size: 1.2em;
-	text-shadow: 0.5px 0.5px 0.5px #333;
 }
 
 hr {
@@ -142,7 +127,6 @@ hr {
 	left: 0;
 	right: 0;
 	background-color: #333;
-	z-index: 2;
 }
 
 li.logo {
@@ -179,7 +163,7 @@ li.logo a {
 }
 
 
-/* STYLES DES COMPETENCES DEV */
+/* STYLES DES COMPETENCES */
 
 .title img {
 	display: none;
@@ -209,7 +193,6 @@ li.logo a {
 #section-1 .flex-element h4,
 #section-2 .flex-element h4 {
 	margin: 0.2em;
-	text-shadow: 0.3px 0.3px 0.3px #333;
 }
 
 #section-1 .flex-element ul li,
@@ -237,6 +220,12 @@ li.logo a {
 	color: #F6DC12;
 	text-shadow: 0.5px 0.5px 0.5px #333;
 }
+
+#section-1 img {
+	position: relative;
+	width: auto;
+}
+
 
 a.dl {
 	padding: 0.8em;
@@ -667,8 +656,7 @@ a.dl i {
 	}
 
 	.menu-items a i p {
-		font-family: Chlakh, Lato, sans-serif;
-		text-transform: uppercase;
+		font-family: Cantarell, sans-serif;
 		font-size: 0.6em;
 		line-height: 1em;
 		padding-top: 0;
